@@ -1,0 +1,173 @@
+.ul__pet.ul__Blublua img {
+    content: url(https://i.postimg.cc/vmPv2fjY/Faerie-Blumaroo.png)
+}
+
+.ul__pet.ul__Roomeo img {
+    content: url(https://i.postimg.cc/vBctJDFx/Valentine-Blumaroo.png)
+}
+
+.ul__pet.ul__Skal img {
+    content: url(https://i.postimg.cc/cJDckwjt/Mutant-Lupe-Attack.png)
+}
+
+.ul__pet.ul__Rooliet img {
+    content: url(https://i.postimg.cc/k5jyYKZm/Edited-Valentine-Blumaroo-Pink.png)
+}
+
+.ul__pet.ul__Primordius img {
+    content: url(https://i.postimg.cc/TPkcNgSm/Primordius-Transparent.png)
+}
+
+.ul__pet.ul__Resa img {
+    content: url(https://i.postimg.cc/B6XBrt9L/Shadow-Ruki.png)
+}
+
+.ul__pet.ul__Eggbaby img {
+    content: url(https://i.postimg.cc/BvhC7Hys/Eggbaby.png)
+}
+
+.ul__pet.ul__Grayce img {
+    content: url(https://i.postimg.cc/mZX21V84/Grayce-Royal.png)
+}
+
+.ul__pet.ul__Renyth img {
+    content: url(https://i.postimg.cc/8CybXM3L/RG-Kyrii-transparent.png)
+}
+
+.ul__pet.ul__Pati img {
+    content: url(https://i.postimg.cc/j5L4pC0W/Valentine-Kyrii.png)
+}
+
+.ul__pet.ul__Orydyness img {
+    content: url(https://i.postimg.cc/YSXxDYVW/Ory-Large.png)
+}
+
+.ul__pet.ul__Snoohins img {
+    content: url(https://i.postimg.cc/g0MKt85Y/Faerie-Jubjub-Edited-Large.png)
+}
+
+.ul__pet.ul__Roothless img {
+    content: url(https://i.postimg.cc/B6Xs6P3V/Roothless-Large.png)
+}
+
+.ul__pet.ul__Vonne img {
+    content: url(https://i.postimg.cc/25Hx9hJ8/Halloween-Blumaroo-Transparent.png)
+}
+
+.ul__pet.ul__Froosty img {
+    content: url(https://i.postimg.cc/X7XNJhjN/Froosty.png)
+}
+
+.ul__pet.ul__Mistwalker img {
+    content: url(https://i.postimg.cc/tgrzvWfY/Mistwalker.png)
+}
+
+.ul__pet.ul__Astroonaut img {
+    content: url(https://i.postimg.cc/wBWk4LrC/Astroonaut-copy.png)
+}
+
+
+.ul__pet.ul__Croochet img {
+    content: url(https://i.postimg.cc/25Hx9hJY/Croochet-Large-Cropped.png)
+}
+
+
+.ul__pet.ul__Prooject img {
+    content: url(https://i.postimg.cc/GmkWhJyR/Prooject.png);
+    filter: drop-shadow(2px 2px 0px #fff)
+}
+
+.ul__pet.ul__Yeoman img {
+    content: url(https://i.postimg.cc/Xvs0fhym/Usul1.png);
+}
+
+.ul__pet.ul__Jeane img {
+    content: url(https://i.postimg.cc/LsyVQL7X/Jean-Large.png)
+}
+
+.ul__pet.ul__kjanakjj img,
+.ul__pet.ul__Jack.Sparroo img {
+    content: url(https://i.postimg.cc/DzCcpLDb/Pirate-Blumaroo.png);
+}
+
+.ul__pet.ul__Lilo.Blumario img {
+    content: url(https://i.postimg.cc/hGC0ZTwv/Lilo-Blumario2.png)
+}
+
+.ul__pet.ul__Chocolino img {
+    content: url(https://i.postimg.cc/tRK7nZbf/Chocolino.png)
+}
+
+.ul__pet.ul__Bananna img {
+    content: url(https://i.postimg.cc/d0W9NrXK/Bananna.png)
+}
+
+.ul__pet.ul__Yos img {
+    content: url(https://i.postimg.cc/hGC0ZTwt/Jelly-Blumaroo.png)
+}
+
+.ul__pet.ul__Chikachu img,
+.ul__pet.ul__Pikacheek img {
+    content: url(https://i.postimg.cc/7YTH6d1C/Pikacheek-Battle-pose.png)
+}
+
+.ul__pet.ul__Blumocampus img {
+    content: url(https://i.postimg.cc/1zWK7wT4/Mara-Blumaroo.png)
+}
+
+.ul__pet.ul__Pharooh img {
+    content: url(https://i.postimg.cc/HWZs83BH/Pharooh.png)
+}
+
+.ul__pet.ul__Roodkill img {
+    content: url(https://i.postimg.cc/MTpScTt2/Roodkill.png)
+}
+
+.ul__pet.ul__Doublet img {
+    content: url(https://i.postimg.cc/nzg9MRbL/RB-Kyrii.png)
+}
+
+.ul__pet.ul__Jerkin img {
+    content: url(https://i.postimg.cc/vBkxDqFG/RB-Eyrie.png)
+}
+
+.ul__pet.ul__Troophy img {
+    content: url(https://i.postimg.cc/3xZ9ckXL/Troophy.png)
+}
+
+
+.ul__pet.ul__Enchanta img {
+    content: url(https://i.postimg.cc/5yZ8XVw1/Enchanta.png)
+}
+
+.ul__pet.ul__Fireflyer img {
+    content: url(https://i.postimg.cc/VkbcP1M1/Fireflyer.png)
+}
+
+.ul__pet.ul__Marchpane img {
+    content: url(https://i.postimg.cc/4xG9SdPQ/Marchpane.png)
+}
+
+.ul__pet.ul__Defroost img {
+    content: url(https://i.postimg.cc/k4YGMMWN/Ice-Blumaroo.png)
+}
+
+.ul__pet.ul__Starmadillo img {
+    content: url(https://i.postimg.cc/W3Yzpp08/Starmadillo.png)
+}
+
+.ul__pet.ul__Pannier img {
+    content: url(https://i.postimg.cc/0jX8nGfy/Pannier-Large.png)
+}
+
+.ul__pet.ul__Roofah img {
+    content: url(https://i.postimg.cc/7YbP6cHY/Roofah-large.png)
+}
+
+.ul__pet.ul__Theobrooma img {
+    content: url(https://i.postimg.cc/HsjWxKYd/Theobrooma.png)
+}
+
+.cat-group--Everyone.Else img {
+    content: url(https://i.postimg.cc/K8NYW0Ty/8ji-Lsvc.png)
+}
