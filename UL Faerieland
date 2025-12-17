@@ -1,0 +1,1222 @@
+@import url('https://fonts.cdnfonts.com/css/dream-catcher-2');
+@import url('https://fonts.cdnfonts.com/css/lafemme-vibe');
+@import url(https://fonts.cdnfonts.com/css/ligconsolata);
+
+
+#sb_top,
+.sb_bottom,
+#page_banner,
+#aio_sidebar,
+#aio_sidebar_placeholder,
+#page_footer,
+#sb_side,
+.ul--sectionheader,
+hr {
+    display: none
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto
+}
+
+div#page_content {
+    margin: auto
+}
+
+#page_content {
+    width: fit-content;
+}
+
+
+img[src="https://grundoscafe.b-cdn.net/userlookup/stamps_2x.gif"] {
+    content: url(https://i.postimg.cc/KYwdMhFZ/Stamp.png)
+}
+
+img[src="https://grundoscafe.b-cdn.net/userlookup/trades_2x.png"] {
+    content: url(https://i.postimg.cc/ryfbGKtM/Snowbunny.png)
+}
+
+img[src="https://grundoscafe.b-cdn.net/userlookup/auctions_2x.png"] {
+    content: url(https://i.postimg.cc/7PKc1fTD/Yooyu.png)
+}
+
+img[src="https://grundoscafe.b-cdn.net/userlookup/wishlist_2x.png"] {
+    content: url(https://i.postimg.cc/Wp5KmhqC/Baby-Fireball.png)
+}
+
+img[src="https://grundoscafe.b-cdn.net/userlookup/scores.png"] {
+    content: url(https://i.postimg.cc/xj67GcbV/Snorkle.png)
+}
+
+img[src="https://grundoscafe.b-cdn.net/userlookup/neomail.png"] {
+    content: url(https://i.postimg.cc/2j0JdVBk/Yullie.png)
+}
+
+#userLookupGameTrophies .med-image,
+#userLookupSiteTrophies .med-image {
+    width: 60px;
+}
+
+.ul--neofriendimg {
+    background-image: url(https://i.postimg.cc/BZmy5X1G/Magaral.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    object-position: -1000rem;
+}
+
+#blua {
+    grid-area: blua;
+    width: 37rem;
+    z-index: 5;
+    aspect-ratio: 1 / 1;
+    justify-content: center;
+    transform: translate(-5.5rem, 0)
+}
+
+#blua img {
+    object-fit: contain;
+    width: 100%;
+    animation: float 4s ease-in-out infinite alternate;
+    justify-self: center;
+}
+
+#userLookupContent {
+    width: 100%;
+    padding: 1em;
+    display: grid;
+    gap: .5em;
+
+    grid-template-areas:
+        "header header header header header"
+        "blua blua desc desc desc"
+        "blua blua avatars relics stamps"
+        "text text text goal goal"
+        "text text text small small"
+        "links links links links links"
+        "pheader pheader pheader pheader pheader"
+        "pet pet pet pet pet"
+        "theader theader theader theader theader"
+        "site site site site site"
+        "game game game game game";
+
+    grid-template-columns: 14.5rem 14.5rem 7rem 7rem 7rem;
+}
+
+#goal {
+    grid-area: goal;
+    justify-self: center;
+    width: 12rem;
+    aspect-ratio: 1/1;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    border-radius: 50%;
+    background: radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.85) 35%, rgba(255, 230, 245, 0.65) 60%, rgba(255, 200, 240, 0.35) 75%, rgba(255, 200, 240, 0.15) 100%);
+    box-shadow: 0 0 40px rgba(255, 255, 255, 0.9), 0 0 80px rgba(220, 113, 228, 0.35), inset 0 0 30px rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px)
+}
+
+#goal img {
+    max-width: 100px;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    filter: drop-shadow(0 6px 12px rgba(220, 113, 228, 0.35))
+}
+
+#goal .goal-caption {
+    font-size: 1rem;
+    line-height: 1.25;
+    text-align: center;
+    color: #c84bb7;
+    text-shadow: 0 0 6px rgba(255, 255, 255, 0.9);
+    max-width: 90%
+}
+
+#goal {
+    animation: cloud-breathe 6.5s ease-in-out infinite
+}
+
+/* BREATHING GLOW */
+@keyframes cloud-breathe {
+    0% {
+        box-shadow: 0 0 40px rgba(255, 255, 255, 0.9), 0 0 80px rgba(220, 113, 228, 0.35), inset 0 0 30px rgba(255, 255, 255, 0.8);
+    }
+
+    50% {
+        box-shadow: 0 0 55px rgba(255, 255, 255, 1), 0 0 110px rgba(220, 113, 228, 0.45), inset 0 0 40px rgba(255, 255, 255, 0.9);
+    }
+
+    100% {
+        box-shadow: 0 0 40px rgba(255, 255, 255, 0.9), 0 0 80px rgba(220, 113, 228, 0.35), inset 0 0 30px rgba(255, 255, 255, 0.8);
+    }
+}
+
+
+.ul--header {
+    grid-area: header;}
+
+#pheader {
+    grid-area: pheader
+}
+
+#theader {
+    grid-area: theader
+}
+
+#userLookupInfo,
+#userLookupDesc,
+#userLookupCollections {
+    display: contents;
+}
+.ul--name::before {
+    font-family: "Lafemme Vibe";
+    color: #76a3ed;
+    content: "Information";
+    justify-self: start;
+    display: block;
+    font-size: 2rem;
+    margin-top: -2.1rem;
+}
+
+.ul--petsheader ul--sectionheader::before {    font-family: "Lafemme Vibe";
+    color: #76a3ed;
+    content: "Information";
+    justify-self: start;
+    display: block;
+    font-size: 2rem;
+    margin-top: -2.1rem;
+
+}
+h2 {
+    font-family: "Lafemme Vibe";
+    color: #3c79ff;
+    text-shadow: 0 0 1em #fff;
+    filter: drop-shadow(0 0 2px #fff) drop-shadow(0 0 8px rgba(255, 255, 255, .9));
+}
+.desc {margin: 0;
+    font-weight: normal;
+    font-size: 2rem;
+    margin-top: -2.1rem;
+    justify-self: right;}
+
+#desc {grid-area:desc;
+    background-position: 20% 10%;
+    animation: cloud-shift-b 19s ease-in-out infinite;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    align-content: center;
+    align-self: center;}
+
+
+
+#userLookupText {
+    grid-area: text;width:max-content;
+}
+
+#userLookupLinks {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    grid-area: links;
+}
+
+.ul__stamps img, .ul__avatars img, .ul__relics img {margin-bottom:.25rem;}
+.ul__stamps img:hover, .ul__avatars img:hover, .ul__relics img:hover  {filter:drop-shadow(0 6px 12px rgba(220, 113, 228, 0.35));}
+.ul__stamps, .ul__avatars, .ul__relics {font-family:"Lafemme Vibe"}
+.ul__avatars {
+    grid-area: avatars;
+    align-self: top;
+}
+
+.ul__stamps {
+    grid-area: stamps;
+    align-self: top;
+}
+
+.ul__relics {
+grid-area: relics;
+    align-self: top;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+
+#userLookupGameTrophies {
+    grid-area: game;
+}
+
+#userLookupSiteTrophies {
+    grid-area: site;
+}
+
+#userLookupPets {
+    grid-area: pet;
+}
+
+
+#starfield {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    mix-blend-mode: color-dodge;
+    opacity: .6;
+    background: url(https://i.imgur.com/hmkG58K.gif);
+    z-index: -3
+}
+
+
+#userLookupInfo,
+#userLookupText,
+#userLookupLinks,
+#userLookupPets,
+#userLookupSiteTrophies,
+#userLookupGameTrophies,
+#desc,
+.nav {
+    padding: 1rem;
+}
+
+.ul--header,
+#pheader,
+#theader {
+    position: relative;
+    z-index: 1;
+    font-family: "Dream Catcher", sans-serif;
+    font-size: 3rem;
+    justify-self: center;
+    -webkit-background-clip: text;
+    color: #d64fde;
+    text-shadow: 0 0 3px rgba(255, 255, 255, 0.9), 0 0 6px rgba(255, 240, 250, 0.8), 0 0 12px rgba(255, 240, 250, 0.6);
+    filter: drop-shadow(0 4px 6px rgba(255, 255, 255, 0.45));
+        align-content: center;height:3em;
+}
+
+.ul--header::after,
+#pheader::after,
+#theader::after {
+    content: "";
+    position: absolute;
+    inset: -0.5em -0.8em;
+    z-index: -1;
+
+    background: radial-gradient(ellipse at center,
+            rgba(255, 255, 255, 0.45),
+            rgba(255, 255, 255, 0.22) 55%,
+            rgba(255, 255, 255, 0) 75%);
+
+    filter: blur(14px);
+    opacity: 0.85;
+    pointer-events: none;
+}
+
+
+.ul--header::before,
+#pheader::before,
+#theader::before {
+    content: "";
+    position: absolute;
+    inset: -0.4em -0.6em;
+
+    background: radial-gradient(ellipse at center,
+            rgba(255, 255, 255, 0.6),
+            rgba(255, 255, 255, 0.25) 55%,
+            rgba(255, 255, 255, 0) 75%);
+
+    filter: blur(12px);
+    z-index: -1;
+}
+
+
+#userLookupPets {
+    position: relative;
+    padding: 3.5rem 1.5rem 1.5rem;
+    z-index: 1;
+}
+
+.ul--infolabel {
+    color: #dc71e4;
+}
+
+#userLookupPets a {
+    font-family: "Lafemme Vibe", sans-serif;
+    font-size: 1.1em;
+    color: #dc71e4;
+    text-transform: auto
+}
+
+.ul__pet.ul__Blublua img {
+    content: url(https://i.postimg.cc/vmPv2fjY/Faerie-Blumaroo.png)
+}
+
+.ul__pet.ul__Roomeo img {
+    content: url(https://i.postimg.cc/vBctJDFx/Valentine-Blumaroo.png)
+}
+
+.ul__pet.ul__Skal img {
+    content: url(https://i.postimg.cc/cJDckwjt/Mutant-Lupe-Attack.png)
+}
+
+.ul__pet.ul__Rooliet img {
+    content: url(https://i.postimg.cc/k5jyYKZm/Edited-Valentine-Blumaroo-Pink.png)
+}
+
+.ul__pet.ul__Primordius img {
+    content: url(https://i.postimg.cc/TPkcNgSm/Primordius-Transparent.png)
+}
+
+.ul__pet.ul__Resa img {
+    content: url(https://i.postimg.cc/B6XBrt9L/Shadow-Ruki.png)
+}
+
+.ul__pet.ul__Eggbaby img {
+    content: url(https://i.postimg.cc/BvhC7Hys/Eggbaby.png)
+}
+
+.ul__pet.ul__Grayce img {
+    content: url(https://i.postimg.cc/mZX21V84/Grayce-Royal.png)
+}
+
+.ul__pet.ul__Renyth img {
+    content: url(https://i.postimg.cc/8CybXM3L/RG-Kyrii-transparent.png)
+}
+
+.ul__pet.ul__Pati img {
+    content: url(https://i.postimg.cc/j5L4pC0W/Valentine-Kyrii.png)
+}
+
+.ul__pet.ul__Orydyness img {
+    content: url(https://i.postimg.cc/YSXxDYVW/Ory-Large.png)
+}
+
+.ul__pet.ul__Snoohins img {
+    content: url(https://i.postimg.cc/g0MKt85Y/Faerie-Jubjub-Edited-Large.png)
+}
+
+.ul__pet.ul__Roothless img {
+    content: url(https://i.postimg.cc/B6Xs6P3V/Roothless-Large.png)
+}
+
+.ul__pet.ul__Vonne img {
+    content: url(https://i.postimg.cc/25Hx9hJ8/Halloween-Blumaroo-Transparent.png)
+}
+
+.ul__pet.ul__Froosty img {
+    content: url(https://i.postimg.cc/X7XNJhjN/Froosty.png)
+}
+
+.ul__pet.ul__Mistwalker img {
+    content: url(https://i.postimg.cc/tgrzvWfY/Mistwalker.png)
+}
+
+.ul__pet.ul__Astroonaut img {
+    content: url(https://i.postimg.cc/wBWk4LrC/Astroonaut-copy.png)
+}
+
+
+.ul__pet.ul__Croochet img {
+    content: url(https://i.postimg.cc/25Hx9hJY/Croochet-Large-Cropped.png)
+}
+
+
+.ul__pet.ul__Prooject img {
+    content: url(https://i.postimg.cc/GmkWhJyR/Prooject.png);
+    filter: drop-shadow(2px 2px 0px #fff)
+}
+
+.ul__pet.ul__Yeoman img {
+    content: url(https://i.postimg.cc/Xvs0fhym/Usul1.png);
+}
+
+.ul__pet.ul__Jeane img {
+    content: url(https://i.postimg.cc/LsyVQL7X/Jean-Large.png)
+}
+
+.ul__pet.ul__kjanakjj img,
+.ul__pet.ul__Jack.Sparroo img {
+    content: url(https://i.postimg.cc/DzCcpLDb/Pirate-Blumaroo.png);
+}
+
+.ul__pet.ul__Lilo.Blumario img {
+    content: url(https://i.postimg.cc/hGC0ZTwv/Lilo-Blumario2.png)
+}
+
+.ul__pet.ul__Chocolino img {
+    content: url(https://i.postimg.cc/tRK7nZbf/Chocolino.png)
+}
+
+.ul__pet.ul__Bananna img {
+    content: url(https://i.postimg.cc/d0W9NrXK/Bananna.png)
+}
+
+.ul__pet.ul__Yos img {
+    content: url(https://i.postimg.cc/hGC0ZTwt/Jelly-Blumaroo.png)
+}
+
+.ul__pet.ul__Chikachu img,
+.ul__pet.ul__Pikacheek img {
+    content: url(https://i.postimg.cc/7YTH6d1C/Pikacheek-Battle-pose.png)
+}
+
+.ul__pet.ul__Blumocampus img {
+    content: url(https://i.postimg.cc/1zWK7wT4/Mara-Blumaroo.png)
+}
+
+.ul__pet.ul__Pharooh img {
+    content: url(https://i.postimg.cc/HWZs83BH/Pharooh.png)
+}
+
+.ul__pet.ul__Roodkill img {
+    content: url(https://i.postimg.cc/MTpScTt2/Roodkill.png)
+}
+
+.ul__pet.ul__Doublet img {
+    content: url(https://i.postimg.cc/nzg9MRbL/RB-Kyrii.png)
+}
+
+.ul__pet.ul__Jerkin img {
+    content: url(https://i.postimg.cc/vBkxDqFG/RB-Eyrie.png)
+}
+
+.ul__pet.ul__Trooffle img,
+.ul__pet.ul__Troophy img {
+    content: url(https://i.postimg.cc/3xZ9ckXL/Troophy.png)
+}
+
+
+.ul__pet.ul__Enchanta img {
+    content: url(https://i.postimg.cc/5yZ8XVw1/Enchanta.png)
+}
+
+.ul__pet.ul__Fireflyer img {
+    content: url(https://i.postimg.cc/VkbcP1M1/Fireflyer.png)
+}
+
+.ul__pet.ul__Marchpane img {
+    content: url(https://i.postimg.cc/4xG9SdPQ/Marchpane.png)
+}
+
+.ul__pet.ul__Defroost img {
+    content: url(https://i.postimg.cc/k4YGMMWN/Ice-Blumaroo.png)
+}
+
+.ul__pet.ul__Starmadillo img {
+    content: url(https://i.postimg.cc/W3Yzpp08/Starmadillo.png)
+}
+
+.ul__pet.ul__Pannier img {
+    content: url(https://i.postimg.cc/0jX8nGfy/Pannier-Large.png)
+}
+
+.ul__pet.ul__Roofah img {
+    content: url(https://i.postimg.cc/7YbP6cHY/Roofah-large.png)
+}
+
+.ul__pet.ul__Theobrooma img {
+    content: url(https://i.postimg.cc/HsjWxKYd/Theobrooma.png)
+}
+
+.cat-group--Everyone.Else img {
+    content: url(https://i.postimg.cc/K8NYW0Ty/8ji-Lsvc.png)
+}
+
+.smallfont.ul--button.ignore-button-size {
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+    mix-blend-mode: overlay;
+    color: #eee;
+    display: block;
+    position: fixed;
+    top: 50px;
+    left: 50px
+}
+
+.smallfont.ul--button.ignore-button-size:hover {
+    color: #fff
+}
+
+
+#userLookupCollections img,
+.ul__relics img {
+    margin: .3em;
+}
+
+.ul__relics img {
+    width: 50px;
+    transition: 400ms;
+    display: block;
+    justify-self: center;
+}
+
+#userLookupCollections img:hover,
+#userLookupLinks img:hover,
+.small-image.ul--linkimg.ul--neofriendimg:hover,
+.ul__relics img:hover {
+    transform: scale(1.1) rotate(5deg);
+    transition: 400ms;
+}
+
+#userLookupCollections img,
+#userLookupSiteTrophies img,
+#userLookupGameTrophies img,
+#userLookupLinks img,
+.small-image.ul--linkimg.ul--neofriendimg {
+    transition: 400ms;
+}
+
+#userLookupGameTrophies img,
+#userLookupSiteTrophies img {
+    transform: scale(0.9);
+    filter: grayscale(1) saturate(1.3);
+    margin: .5em;
+    opacity: 0.7
+}
+
+#userLookupSiteTrophies img:hover,
+#userLookupGameTrophies img:hover {
+    transform: scale(1);
+    filter: grayscale(0) saturate(1);
+    opacity: 1
+}
+
+.ul--shield {
+    display: none;
+    width: 0
+}
+
+body {
+    background: url(https://i.postimg.cc/Yt3MXvbz/faerieland-bg.png) no-repeat;
+    background-color: #e7b2ee !important;
+    font-family: "Ligconsolata", sans-serif;
+    color: #b636c0;
+}
+
+#userLookupText a:link,
+#userLookupText a:active,
+#userLookupText a:visited {
+    background: transparent;
+    color: #ff56f1;
+    transition: 300ms;
+    font-family: "Lafemme Vibe"
+}
+
+#userLookupText li::marker {
+    content: " 🩷 "
+}
+
+#userLookupText a:hover,
+a:hover {
+    color: #ff84f5;
+    transition: 300ms;
+}
+
+::selection,
+span::selection {
+    background-color: rgba(220, 113, 228, 0.24);
+    color: #bc25c7;
+}
+
+.ul--linktext.smallfont {
+    padding-top: .4em;
+    font-family: "Lafemme Vibe";
+    font-size: 0.9em;
+}
+
+#navigate img {
+    width: 12rem;
+    height: auto;
+    object-fit: contain;
+    justify-self: center;
+    animation: float 3s ease-in-out infinite alternate;
+}
+
+#navigate {
+    position: fixed;
+    bottom: 0;
+    right: 1rem;
+    height: calc(12rem + 2em);
+    overflow: hidden;
+    background-color: transparent;
+    transition: 400ms;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    z-index: 9999;
+}
+
+#navigate h4 {
+    font-family: "Lafemme Vibe";
+    font-size: 1.5rem;
+    transform: translate(1.1rem, -2.3rem);
+    margin: 1em 0 -1em 0;
+    color: #d942bb;
+    text-shadow: 0 0 7px #f4d8f5, 1px 1px 3px #fff8fe;
+}
+
+
+#navigate a:link,
+#navigate a:visited,
+#navigate a:active {
+    display: block;
+    padding: 0.5rem;
+    margin: 0.25rem 0;
+    background-color: rgb(255 255 255 / 29%);
+    /* box-shadow: 0 0 1rem rgba(255, 255, 255, .5); */
+    color: #1b83ff;
+    backdrop-filter: blur(6px);
+    border-radius: 0.3rem;
+    width: 100px;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px #fff;
+
+}
+
+#navigate a:hover {
+    background-color: rgba(240, 209, 176, .44);
+    color: #e08147;
+}
+
+#navigate:hover {
+    height: 31rem;
+    transition: 400ms
+}
+
+#userPetList img {
+    transition: 300ms;
+    transform: scale(0.9);
+    opacity: 0.8;
+    width: 120px;
+    height: 120px;
+    display: block;
+    justify-self: center;
+    /* background-size: cover; */
+    background-position: center;
+    background: url(https://i.postimg.cc/x80WGM1N/asset-Image-library-Url-https-images-neopets-com-cp-items-data-000-000-858-85898.png) no-repeat;
+    background-size: contain;
+}
+
+
+#userPetList img:hover {
+    transition: 300ms;
+    opacity: 1;
+    transform: scale(1);
+    filter: sepia(0);
+}
+
+
+
+.ul--headerlabel::after,
+.ul--infolabel::after,
+.ul--collectionslabel::after {
+    content: ": "
+}
+
+@keyframes grow1 {
+    0% {
+        transform: scale(.6 .5)
+    }
+
+    100% {
+        transform: scale(.8)
+    }
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+
+@keyframes shine-sweep {
+    0% {
+        background-position: 110% 50%;
+    }
+
+    35% {
+        background-position: -10% 50%;
+    }
+
+    100% {
+        background-position: -10% 50%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .ul__relics img {
+        width: max(50px, 10vw);
+        height: auto;
+    }
+
+    .med-image {
+        width: max(80px, 15vw) !important;
+        border-radius: 5px;
+        height: auto !important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #goal {
+        width: 14rem;
+        padding: 1.6rem;
+        gap: 0.6rem;
+    }
+
+    #goal img {
+        max-width: 120px;
+    }
+
+    #goal .goal-caption {
+        font-size: 0.95rem;
+        line-height: 1.2;
+    }
+}
+
+
+@media screen and (max-width: 992px),
+(orientation: portrait) {
+
+
+
+    .ul__stamps {
+        grid-area: stamps;
+        align-self: center;
+        justify-self: start;
+    }
+
+    .ul__avatars {
+        grid-area: avatars;
+        align-self: center;
+        justify-self: end;
+    }
+
+}
+
+#troph {width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: relative;
+    grid-column: 1 / -1;
+    grid-row: 10 / -1;}
+
+/* Kadoatery */
+.ul__sitetrophy.ul__kad_level_3 img {
+    content: url(https://i.imgur.com/4glbtRp.png)
+}
+
+/* Defenders of Neopia */
+.ul__sitetrophy.ul__don9 img {
+    content: url(https://i.postimg.cc/nLwvHt6K/Do-N-Sloth.png)
+}
+
+/* Haunted House 2025 */
+.ul__sitetrophy.ul__hh2025_1 img {
+    content: url(https://i.postimg.cc/pX7cRx1g/Haunted-House.png)
+}
+
+/* Snowball Fight 2025 */
+.ul__sitetrophy.ul__ribbon_BrainTree img {
+    content:url(https://i.postimg.cc/5tkwxMZB/Snowball-Fight-Brain-Tree.png)
+}
+
+/* Brain Tree */
+.ul__gametrophy.ul__game17 img {
+    content: url(https://i.imgur.com/Nqm9jcZ.png)
+}
+
+/* Fruit Machine */
+.ul__gametrophy.ul__game60 img {
+    content: url(https://i.imgur.com/zu98GPc.png)
+}
+
+/* Lottery */
+.ul__gametrophy.ul__game20 img {
+    content: url(https://i.imgur.com/B4TZUso.png)
+}
+
+/* Cheeseroller */
+.ul__gametrophy.ul__game32 img {
+    content: url(https://i.imgur.com/r9hb3m1.png)
+}
+
+/* Turmac Roll */
+.ul__gametrophy.ul__game91 img {
+    content: url(https://i.imgur.com/8wC1VHT.png)
+}
+
+/* Splat a Sloth */
+.ul__gametrophy.ul__game68 img {
+    content: url(https://i.imgur.com/OTfccfr.png)
+}
+
+/* Food Club */
+.ul__gametrophy.ul__game6 img {
+    content: url(https://i.imgur.com/XSlcqQ6.png)
+}
+
+/* Snow Wars */
+.ul__gametrophy.ul__game76 img {
+    content: url(https://i.imgur.com/Eo53ICj.png)
+}
+
+/* Kiss the Mortog */
+.ul__gametrophy.ul__game61 img {
+    content: url(https://i.imgur.com/WMeAqRL.png)
+}
+
+/* Tyranu Evavu */
+.ul__gametrophy.ul__game5 img {
+    content: url(https://i.imgur.com/AjiNz4D.png)
+}
+
+/* Kass Basher */
+.ul__gametrophy.ul__game88 img {
+    content: url(https://i.imgur.com/S1yMw2F.png)
+}
+
+/* Lenny Conundrum */
+.ul__gametrophy.ul__game21 img {
+    content: url(https://i.imgur.com/SliOZug.png)
+}
+
+/* Wishing Well */
+.ul__gametrophy.ul__game19 img {
+    content: url(https://i.imgur.com/xi02lwB.png)
+}
+
+/* Attack of the Revenge */
+.ul__gametrophy.ul__game54 img {
+    content: url(https://i.imgur.com/0238GOa.png)
+}
+
+/* Double or Nothing */
+.ul__gametrophy.ul__game30 img {
+    content: url(https://i.imgur.com/p0FSB1S.png)
+}
+
+/* Escape from Meridell Castle */
+.ul__gametrophy.ul__game51 img {
+    content: url(https://i.imgur.com/HIQ1tRn.png)
+}
+
+/* Tax Beast */
+.ul__gametrophy.ul__game23 img {
+    content: url(https://i.imgur.com/23AxaMX.png)
+}
+
+/* Mystery Pic */
+.ul__gametrophy.ul__game45 img {
+    content: url(https://i.imgur.com/wwhak6u.png)
+}
+
+/* Better Than You */
+.ul__gametrophy.ul__game66 img {
+    content: url(https://i.postimg.cc/FsqCNmn8/BTY-Bronze.png)
+}
+
+/* Card Collector */
+.ul__gametrophy.ul__game18 img {
+    content: url(https://i.postimg.cc/SN51kqtB/Card-Collector-Bronze.png)
+}
+
+#siteTrophiesList,
+#gameTrophiesList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px
+}
+
+.re_shh {
+    background-color: #ebb8ee;
+    border-radius: 3px;
+    font-family: 'Lafemme Vibe';
+    font-weight: normal !important;
+    font-size: 1.2em;
+}
+
+.re {
+    background-color: rgba(243, 226, 248, .7);
+    border: 1px solid rgba(243, 226, 248, .8);
+    -webkit-backdrop-filter: blur(7px);
+    backdrop-filter: blur(7px);
+    border-radius: 10px;
+}
+
+.random_event_image {
+    border: none;
+    width: 80px;
+    background-color: #fff;
+    border-radius: 3px;
+    transition: 300ms;
+}
+
+.random_event_image:hover {
+    transition: 300ms;
+}
+
+body,
+html,
+a:link,
+a:visited,
+a:active,
+a:hover,
+form,
+input {
+    cursor: url(https://www.sunnyneo.com/pointers/CUR_faeriepb.gif), pointer
+}
+
+/* BASE — VERY LIGHT, SEE-THROUGH CLOUD GLASS */
+#userLookupText,
+#desc,
+#userLookupPets,
+#troph {
+    position: relative;
+
+    background:
+        radial-gradient(ellipse at 30% 25%,
+            rgba(255, 255, 255, 0.55),
+            rgba(255, 235, 250, 0.35) 40%,
+            rgba(243, 200, 240, 0.22) 65%,
+            rgba(220, 113, 228, 0.12) 85%,
+            rgba(220, 113, 228, 0.06) 100%);
+
+    background-size: 180% 180%;
+    background-position: 0% 0%;
+
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+
+    border-radius: 18px;
+
+    box-shadow:
+        0 0 12px rgba(255, 255, 255, 0.35),
+        0 0 30px rgba(220, 113, 228, 0.18),
+        inset 0 0 14px rgba(255, 255, 255, 0.28);
+
+    animation: cloud-shift-a 18s ease-in-out infinite;
+}
+
+/* SOFT AURA — VERY SUBTLE */
+#userLookupText::before,
+#desc::before,
+#userLookupPets::before,
+#troph::before {
+    content: "";
+    position: absolute;
+    inset: -1.2rem;
+    z-index: -1;
+
+    background: radial-gradient(ellipse at center,
+            rgba(255, 255, 255, 0.22),
+            rgba(255, 255, 255, 0.12) 55%,
+            rgba(255, 255, 255, 0) 75%);
+
+    filter: blur(22px);
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+/* INTERNAL CLOUD VEIL */
+#userLookupText::after,
+#desc::after,
+#userLookupPets::after,
+#troph::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+
+    background: linear-gradient(120deg,
+            transparent 38%,
+            rgba(255, 255, 255, 0.18) 50%,
+            transparent 62%);
+
+    background-size: 240% 100%;
+    pointer-events: none;
+}
+
+/* TEXT — slow, wide cloud drift */
+#userLookupText {
+    animation: cloud-shift-a 22s ease-in-out infinite;
+}
+
+#userLookupText::after {
+    animation: cloud-sheen-a 20s ease-in-out infinite;
+}
+
+/* DESCRIPTION — softer, slightly diagonal movement */
+#desc {
+    background-position: 20% 10%;
+    animation: cloud-shift-b 19s ease-in-out infinite;
+}
+
+#desc::after {
+    animation: cloud-sheen-b 18s ease-in-out infinite;
+}
+
+/* PETS — warmer, more pink, slower breathing */
+#userLookupPets {
+    background:
+        radial-gradient(ellipse at 35% 30%,
+            rgba(255, 255, 255, 0.5),
+            rgba(255, 220, 245, 0.32) 40%,
+            rgba(243, 190, 235, 0.22) 65%,
+            rgba(220, 113, 228, 0.10) 100%);
+    animation: cloud-shift-c 26s ease-in-out infinite;
+}
+
+#userLookupPets::after {
+    animation: cloud-sheen-c 24s ease-in-out infinite;
+}
+
+/* TROPHIES — cooler, airier, slightly higher contrast */
+#troph {
+    background:
+        radial-gradient(ellipse at 25% 20%,
+            rgba(255, 255, 255, 0.6),
+            rgba(235, 245, 255, 0.3) 45%,
+            rgba(210, 220, 255, 0.18) 70%,
+            rgba(180, 200, 255, 0.08) 100%);
+    animation: cloud-shift-d 17s ease-in-out infinite;
+}
+
+#troph::after {
+    animation: cloud-sheen-d 16s ease-in-out infinite;
+}
+
+@keyframes cloud-shift-a {
+    0% {
+        background-position: 0% 0%;
+    }
+
+    50% {
+        background-position: 100% 100%;
+    }
+
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+@keyframes cloud-shift-b {
+    0% {
+        background-position: 10% 20%;
+    }
+
+    50% {
+        background-position: 90% 70%;
+    }
+
+    100% {
+        background-position: 10% 20%;
+    }
+}
+
+@keyframes cloud-shift-c {
+    0% {
+        background-position: 20% 30%;
+    }
+
+    50% {
+        background-position: 80% 60%;
+    }
+
+    100% {
+        background-position: 20% 30%;
+    }
+}
+
+@keyframes cloud-shift-d {
+    0% {
+        background-position: 30% 10%;
+    }
+
+    50% {
+        background-position: 70% 80%;
+    }
+
+    100% {
+        background-position: 30% 10%;
+    }
+}
+
+@keyframes cloud-sheen-a {
+    0% {
+        background-position: 130% 50%;
+    }
+
+    45% {
+        background-position: -30% 50%;
+    }
+
+    100% {
+        background-position: -30% 50%;
+    }
+}
+
+@keyframes cloud-sheen-b {
+    0% {
+        background-position: 120% 40%;
+    }
+
+    45% {
+        background-position: -20% 60%;
+    }
+
+    100% {
+        background-position: -20% 60%;
+    }
+}
+
+@keyframes cloud-sheen-c {
+    0% {
+        background-position: 140% 50%;
+    }
+
+    50% {
+        background-position: -40% 50%;
+    }
+
+    100% {
+        background-position: -40% 50%;
+    }
+}
+
+@keyframes cloud-sheen-d {
+    0% {
+        background-position: 125% 45%;
+    }
+
+    45% {
+        background-position: -25% 55%;
+    }
+
+    100% {
+        background-position: -25% 55%;
+    }
+}
