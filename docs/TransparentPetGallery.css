@@ -76,7 +76,7 @@
     content: url(https://i.postimg.cc/GmkWhJyR/Prooject.png);
     filter: drop-shadow(2px 2px 0px #fff)
 }
-.ul__pet.ul__Prooject img:hover {filter: drop-shadow(2px 2px 0px #fff)
+.ul__pet.ul__Prooject img:hover {filter: drop-shadow(2px 2px 0px #fff);}
 
 .ul__pet.ul__Yeoman img {
     content: url(https://i.postimg.cc/Xvs0fhym/Usul1.png);
